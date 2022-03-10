@@ -47,7 +47,7 @@
     "sold": {
       "type": "boolean"
     },
-    "rent": {
+    "rentt": {
       "type": "boolean",
       "required": true
     }
