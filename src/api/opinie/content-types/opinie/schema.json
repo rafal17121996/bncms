@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "opinies",
+  "info": {
+    "singularName": "opinie",
+    "pluralName": "opinies",
+    "displayName": "Opinie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "author": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

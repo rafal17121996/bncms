@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ofertas",
+  "info": {
+    "singularName": "oferta",
+    "pluralName": "ofertas",
+    "displayName": "Oferta",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "area": {
+      "type": "biginteger"
+    },
+    "rooms": {
+      "type": "integer"
+    },
+    "imgs": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "floor": {
+      "type": "integer"
+    },
+    "published": {
+      "type": "boolean"
+    },
+    "sold": {
+      "type": "boolean"
+    },
+    "rent": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}
